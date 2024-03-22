@@ -4,13 +4,17 @@ export default defineNuxtConfig({
   vite: {
     css: {
       preprocessorOptions: {
+        // 全局引入scss变量
         scss: {
           additionalData: `@use "@/assets/_colors.scss" as *;`
         }
       }
     }
   },
-  modules: ['@nuxtjs/tailwindcss'],
+
+  // 模块配置
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt'],
+  // 页面切换动画
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
   },
