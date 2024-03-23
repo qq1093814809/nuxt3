@@ -49,5 +49,9 @@ export default defineNuxtConfig({
         landscapeWidth: 1338 // 横屏时使用的视口宽度
       }
     }
+  },
+  // 路由配置
+  routeRules: {
+    // '/': { redirect: '/about' }
   }
 })

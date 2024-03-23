@@ -1,5 +1,7 @@
 <template>
+
     <div class="bg-slate-200">
+
         关于我们&nbsp; {{ store.name }}
         <NuxtLink to="/">go</NuxtLink>
 
