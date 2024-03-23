@@ -1,11 +1,11 @@
 export declare type ITypes = 'name'
-export enum colorType {
+export declare enum colorType {
   'red' = 1,
   'green' = 2,
   'blue' = 3,
   'yellow' = 'name'
 }
-export interface goodsType {
+export declare interface goodsType {
   name: string
   price: number
   color: colorType
