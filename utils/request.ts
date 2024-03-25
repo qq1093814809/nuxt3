@@ -56,11 +56,11 @@ export const req = ({
           options.headers = options.headers || {
             Authorization: 'Bearer ' + env.token
           }
-          console.log('请求拦截', request, options['headers'])
+          console.log('当前请求地址', request)
         },
         // 响应拦截
         onResponse: ({ request, options }) => {
-          console.log('响应拦截', request, options)
+          // console.log('响应拦截', request, options)
         }
       })
 
