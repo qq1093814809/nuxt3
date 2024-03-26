@@ -1,7 +1,7 @@
 <template>
     <div class="content-box">
         <video muted autoplay loop src="~/assets/bg.mp4"></video>
-        <div class="glass-container">123</div>
+        <div v-trans class="glass-container">123</div>
     </div>
 </template>
 
@@ -18,24 +18,25 @@ const changeValue = () => {
 
 <style scoped>
 .glass-container {
+    --x: 0;
+    --y: 0;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 245px;
+    transform: translate(-50%, -50%) perspective(1000px) rotateX(var(--x)) rotateY(var(--y));
+    width: 50vmin;
+    height: 80vmin;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border-radius: 13px;
+    border-radius: 4px;
     backdrop-filter: blur(30px);
     background-color: rgba(225, 102, 102, 0.142);
     box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
-    border: 0px rgba(255, 255, 255, 0.4) solid;
-    border-bottom: 0px rgba(40, 40, 40, 0.35) solid;
-    border-right: 0px rgba(40, 40, 40, 0.35) solid;
+    border: 1px solid #FFF;
+
 }
 
 video {
@@ -44,6 +45,7 @@ video {
     height: 100%;
     object-fit: cover;
 }
+
 
 .content-box {
     width: 100%;
