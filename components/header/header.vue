@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const num = ref(1)
+
 </script>
 
 <style scoped lang="scss">

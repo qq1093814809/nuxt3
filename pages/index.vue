@@ -8,10 +8,6 @@
 import { userStore } from '@/stores/user'
 const store = userStore()
 const { data, error, execute, pending, status } = await req({ url: 'Public_fun/login_password', data: { phone: "18251983962", password: 'liuminwei981017' } })
-const changeValue = () => {
-    store.name = '12312'
-}
-
 
 </script>
 

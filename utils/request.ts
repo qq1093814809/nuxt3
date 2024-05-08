@@ -26,7 +26,7 @@ export const req = ({
   const env = useAppConfig()
 
   return new Promise<{
-    data: Ref<any>
+    data: Object
     error: any
     execute: Function
     pending: Ref<boolean>
@@ -64,7 +64,7 @@ export const req = ({
         }
       })
 
-      resolve({ data: value, error, execute, pending, status })
+      resolve({ data: JSON.parse(value.value as string), error, execute, pending, status })
     } catch (error) {
       reject(error)
     }
