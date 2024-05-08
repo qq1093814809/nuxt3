@@ -5,8 +5,9 @@
 </template>
 
 <script setup lang="ts">
-import { userStore } from '@/stores/user'
-const store = userStore()
+import { pagesStore } from '@/stores/pages'
+const store = pagesStore()
+
 const { data, error, execute, pending, status } = await req({ url: 'Public_fun/login_password', data: { phone: "18251983962", password: 'liuminwei981017' } })
 
 </script>

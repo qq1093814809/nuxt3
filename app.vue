@@ -25,15 +25,13 @@ useHead({
 @import url('~/assets/css/reset.scss');
 @import url('~/assets/css/common.scss');
 
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.4s;
-}
+// .page-enter-active,
+// .page-leave-active {
+//   transition: all 0.4s;
+// }
 
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  /* filter: blur(1rem); */
-  transform: translateX(100%);
-}
-</style>
+// .page-enter-from,
+// .page-leave-to {
+//   opacity: 0;
+//   transform: translateX(100%);
+// }</style>

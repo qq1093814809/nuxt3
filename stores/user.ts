@@ -1,6 +1,6 @@
 export const userStore = defineStore('user', {
   state: () => ({
-    name: '',
+    name: '12123123123',
     phone: '',
     token: ''
   }),

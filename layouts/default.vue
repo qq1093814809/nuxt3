@@ -1,13 +1,21 @@
 <template>
     <div class="containers">
         <!-- <p>一些在所有页面之间共享的默认布局内容</p> -->
-        <Header></Header>
+        <Header @changeValue="changeValue"></Header>
         <div class="center">
             <slot />
         </div>
         <Footer></Footer>
     </div>
 </template>
+<script lang="ts" setup>
+import { pagesStore } from '@/stores/pages'
+const store = pagesStore()
+const active = ref(0);
+const changeValue = (value: number) => {
+    store.tab = value
+}
+</script>
 <style scoped lang="scss">
 .containers {
     width: 100%;
