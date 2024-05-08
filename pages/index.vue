@@ -1,7 +1,6 @@
 <template>
-    <div class="content-box">
-        <video muted autoplay loop src="~/assets/bg.mp4"></video>
-        <div v-trans class="glass-container">123</div>
+    <div class="content-boxs flex">
+        主页
     </div>
 </template>
 
@@ -16,7 +15,7 @@ const changeValue = () => {
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .glass-container {
     --x: 0;
     --y: 0;
@@ -39,18 +38,11 @@ const changeValue = () => {
 
 }
 
-video {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 
-.content-box {
+.content-boxs {
     width: 100%;
     height: 100%;
-    background-color: lightpink;
     mix-blend-mode: multiply;
 }
 </style>

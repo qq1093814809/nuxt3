@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     plugins: {
       autoprefixer: {},
       'postcss-px-to-viewport-8-plugin': {
-        unitToConvert: 'px', // 需要转换的单位，默认为"px"
+        unitToConvert: 'rpx', // 需要转换的单位，默认为"px"
         viewportWidth: 750, // 设计稿的视口宽度
         unitPrecision: 5, // 单位转换后保留的精度
         propList: ['*', '!font-size'], // 能转化为vw的属性列表,!font-size表示font-size后面的单位不会被转换

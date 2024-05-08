@@ -9,10 +9,10 @@
 <script setup lang="ts">
 // SEO
 useHead({
-  title: '刘民纬',
+  title: '蚂蚁聚服',
   meta: [
-    { name: 'description', content: '刘民纬的个人博客' },
-    { name: 'keywords', content: '博客,vue3,nuxt3,vite' },
+    { name: 'description', content: '蚂蚁聚服供应链' },
+    { name: 'keywords', content: '蚂蚁聚服供应链,蚂蚁聚服,供应链,商城,电商,购物' },
     {
       name: 'viewport',
       content:
@@ -23,6 +23,7 @@ useHead({
 </script>
 <style lang="scss">
 @import url('~/assets/css/reset.scss');
+@import url('~/assets/css/common.scss');
 
 .page-enter-active,
 .page-leave-active {

@@ -1,6 +1,6 @@
 <template>
-    <div class="box">
-        头部{{ num }}
+    <div class="box bg flex justify-center">
+        <div class="w">123</div>
     </div>
 </template>
 
@@ -11,10 +11,5 @@ const num = ref(1)
 <style scoped lang="scss">
 .box {
     width: 100vw;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, .3);
 }
 </style>
