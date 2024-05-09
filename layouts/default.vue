@@ -5,7 +5,6 @@
         <div class="center">
             <slot />
         </div>
-        <Footer></Footer>
     </div>
 </template>
 <script lang="ts" setup>
@@ -20,7 +19,10 @@ const changeValue = (value: number) => {
 .containers {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 82px;
+    // overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

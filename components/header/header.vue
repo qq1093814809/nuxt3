@@ -22,6 +22,7 @@
 import { pagesStore } from '@/stores/pages'
 const store = pagesStore()
 const router = useRouter()
+const route: any = useRoute()
 const emit = defineEmits(['changeValue'])
 const change = (e: any) => {
     const value = e.target.getAttribute('data-value')
@@ -51,11 +52,27 @@ const change = (e: any) => {
 const goLogin = () => {
     location.href = 'https://supply.leyg.cn/scm'
 }
+if (route.href.includes('about')) {
+    store.tab = 1
+} else if (route.href.includes('category')) {
+    store.tab = 2
+} else if (route.href.includes('success')) {
+    store.tab = 3
+} else if (route.href.includes('serve')) {
+    store.tab = 4
+} else {
+    store.tab = 0
+}
+
 </script>
 
 <style scoped lang="scss">
 .box {
     width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
 }
 
 .item-content {

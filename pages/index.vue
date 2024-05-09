@@ -1,6 +1,9 @@
 <template>
-    <div class="content-boxs flex">
-        主页
+    <div class="content-boxs">
+        <div class="banner">
+            <img src="~/assets/img/index/banner.png" alt="">
+        </div>
+        <Footer />
     </div>
 </template>
 
@@ -41,5 +44,12 @@ const { data, error, execute, pending, status } = await req({ url: 'Public_fun/l
     width: 100%;
     height: 100%;
     mix-blend-mode: multiply;
+
+    .banner {
+        width: 100%;
+        overflow: hidden;
+
+
+    }
 }
 </style>
