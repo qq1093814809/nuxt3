@@ -1,6 +1,6 @@
 <template>
     <div class="box">
-        <div class="w-[1280px]" style="margin: 0 auto;">
+        <div class="w" style="margin: 0 auto;">
             <div class="containers flex justify-between ">
                 <div class="logo">
                     <img src="~/assets/img/logo.png" alt="">

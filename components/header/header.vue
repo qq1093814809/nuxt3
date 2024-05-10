@@ -1,6 +1,6 @@
 <template>
     <div class="box bg flex justify-center">
-        <div class="w flex items-center justify-between">
+        <div class="w flex items-center justify-between h-[82px]">
             <div>
                 <img src="~/assets/img/logo2.png" class="w-[240px]" alt="">
             </div>
