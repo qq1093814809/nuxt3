@@ -29,7 +29,7 @@
                     </div>
                     <div class="right flex flex-col items-center">
                         <img class="w-[109px] h-[109px] mb-[20px]" src="~/assets/img/logo.png" alt="">
-                        <span>万商汇官方APP</span>
+                        <span>蚂蚁聚服官方APP</span>
                         <span>钉钉/淘宝/支付宝</span>
                         <span>扫码下载</span>
                     </div>

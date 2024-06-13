@@ -22,7 +22,7 @@ const changeValue = (value: number) => {
     box-sizing: border-box;
     padding-top: 82px;
     // overflow-y: auto;
-    overflow-x: hidden;
+    // overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

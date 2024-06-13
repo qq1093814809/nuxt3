@@ -9,51 +9,51 @@
         <div class="box1 ">
             <div class="w">
                 <div>
-                    <img src="`~/assets/img/category/1.png`" alt="">
+                    <img src="~/assets/img/category/1.png" alt="">
                     <span>数码家电</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/2.png`" alt="">
+                    <img src="~/assets/img/category/2.png" alt="">
                     <span>电脑办公</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/3.png`" alt="">
+                    <img src="~/assets/img/category/3.png" alt="">
                     <span>服饰内衣</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/4.png`" alt="">
+                    <img src="~/assets/img/category/4.png" alt="">
                     <span>家居日用</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/5.png`" alt="">
+                    <img src="~/assets/img/category/5.png" alt="">
                     <span>美妆护肤</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/6.png`" alt="">
+                    <img src="~/assets/img/category/6.png" alt="">
                     <span>户外运动</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/7.png`" alt="">
+                    <img src="~/assets/img/category/7.png" alt="">
                     <span>母婴用品</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/8.png`" alt="">
+                    <img src="~/assets/img/category/8.png" alt="">
                     <span>食品饮料</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/9.png`" alt="">
+                    <img src="~/assets/img/category/9.png" alt="">
                     <span>汽车用品</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/10.png`" alt="">
+                    <img src="~/assets/img/category/10.png" alt="">
                     <span>珠宝首饰</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/11.png`" alt="">
+                    <img src="~/assets/img/category/11.png" alt="">
                     <span>玩具乐器</span>
                 </div>
                 <div>
-                    <img src="`~/assets/img/category/12.png`" alt="">
+                    <img src="~/assets/img/category/12.png" alt="">
                     <span>个人护理</span>
                 </div>
             </div>

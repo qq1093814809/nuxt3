@@ -6,8 +6,8 @@
             </div>
             <div @click="change" class="item-content justify-around flex">
                 <div data-value="0" :class="{ active: store.tab == 0 }">首页</div>
-                <div data-value="1" :class="{ active: store.tab == 1 }">关于我们</div>
                 <div data-value="2" :class="{ active: store.tab == 2 }">供应品类</div>
+                <div data-value="1" :class="{ active: store.tab == 1 }">关于我们</div>
                 <div data-value="3" :class="{ active: store.tab == 3 }">成功案例</div>
                 <div data-value="4" :class="{ active: store.tab == 4 }">服务中心</div>
             </div>
@@ -69,7 +69,7 @@ if (route.href.includes('about')) {
 <style scoped lang="scss">
 .box {
     width: 100vw;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 99;
     background-color: #fff;
