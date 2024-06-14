@@ -8,11 +8,16 @@
                 <div data-value="0" :class="{ active: store.tab == 0 }">首页</div>
                 <div data-value="2" :class="{ active: store.tab == 2 }">供应品类</div>
                 <div data-value="1" :class="{ active: store.tab == 1 }">关于我们</div>
-                <div data-value="3" :class="{ active: store.tab == 3 }">成功案例</div>
-                <div data-value="4" :class="{ active: store.tab == 4 }">服务中心</div>
+                <!-- <div data-value="3" :class="{ active: store.tab == 3 }">成功案例</div> -->
+                <!-- <div data-value="4" :class="{ active: store.tab == 4 }">服务中心</div> -->
             </div>
-            <div @click="goLogin" class="login">
-                立即登录
+            <div class="flex">
+                <div @click="goLogin" class="login mr-[16px]">
+                    加入我们
+                </div>
+                <div @click="goLogin2" class="login">
+                    API接入
+                </div>
             </div>
         </div>
     </div>
@@ -51,6 +56,9 @@ const change = (e: any) => {
 }
 const goLogin = () => {
     location.href = 'https://supply.leyg.cn/scm'
+}
+const goLogin2 = () => {
+    location.href = 'https://supply.leyg.cn/shop'
 }
 if (route.href.includes('about')) {
     store.tab = 1
