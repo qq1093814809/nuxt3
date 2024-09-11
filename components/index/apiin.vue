@@ -86,7 +86,7 @@
             }
         }
 
-        @for $i from 1 through 7 {
+        @for $i from 1 through 6 {
             &>div:nth-child(#{$i}) {
                 background-image: url('~/assets/img/index/#{$i}.png');
                 background-size: 100% 100%;

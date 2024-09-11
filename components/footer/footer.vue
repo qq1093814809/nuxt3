@@ -193,7 +193,7 @@ const data2 = ref([
 
 <style scoped lang="scss">
 .box {
-    width: 100vw;
+    width: 100%;
     height: 568px;
     box-sizing: border-box;
     background: linear-gradient(0deg, #FFFFFF 0%, #F3F5F7 100%);
